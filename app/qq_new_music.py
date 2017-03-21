@@ -197,7 +197,9 @@ class QqMusicNew():
         insert_data = self.process_data(all_data)
         insert_list = self.get_inserted_list(insert_data)
         self.insert_into_mysql(insert_list)
-
+        
+    def git_test(self):
+        pass
 
 if __name__ == '__main__':
     while True:
